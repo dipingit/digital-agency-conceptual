@@ -78,7 +78,6 @@
     background-repeat: no-repeat;
     padding: 20px;
     display: flex;
-    
 }
 .left-side-container{
     margin-top: 90px;
@@ -147,4 +146,20 @@
     margin-bottom: 20px;
 }
 
+/* appointment section */
 
+.ap-content{
+    background-color: #F52C2C;
+    height: 150px;
+    margin: 0 150px;
+    border-radius: 20px;
+    color: white;
+    position: relative;
+    bottom: 80px;
+}
+.ap-logo{
+    display: flex;
+}
+.ap-details{
+    display: flex;
+}
