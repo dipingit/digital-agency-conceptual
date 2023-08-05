@@ -53,14 +53,98 @@
     margin: auto;
     font-size: 20px;
 }
-.primary{
+.btn-primary{
     /* display: flex; */
     padding: 12px 20px;
     border: none;
     font-size: 1.10rem;
     text-transform: uppercase;
+    border: none;
 }
 #btn-discover{
     background-color: rgb(247, 43, 43);
     color: white;
 }
+
+/* service container section */
+
+.service-container{
+    height: 100vh;
+    background-image: url("../asset/image/footer-bg.png"), linear-gradient(rgba(0,0,0,0.9),rgba(0,0,0,0.9));
+    background-blend-mode: overlay;
+    color: rgb(204, 197, 197);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 20px;
+    display: flex;
+    
+}
+.left-side-container{
+    margin-top: 90px;
+}
+.btn-service{
+    padding: 15px 35px;
+    font-size: 1.10rem;
+    background-color: white;
+    border-radius: 25px;
+    border: none;
+}
+.service-title{
+    font-size: 2.5rem;
+    margin: 20px 0;
+
+}
+.service-title span{
+    color: red;
+}
+
+.service-paragraph{
+    width: 50%;
+    font-size: 20px;
+}
+.author-container{
+    display: flex;
+    margin-top: 40px;
+}
+.author-profile{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.line{
+    border-right: 1px solid red;
+    height: 80px;
+    margin-left: 50px;
+
+}
+.author-photo{
+    height: 80px;
+    width: 80px;
+    border-radius: 45px;
+}
+
+#btn-details{
+    color: red;
+}
+.box{
+    text-align: center;
+    width:150px;
+    height: 100px;
+    padding: 60px 60px 90px 60px;
+    background-color: white;
+    border-radius: 5px;
+    color: black;
+}
+.first-two-box{
+    display: flex;
+    gap: 5px;
+    margin-top: 10px;
+}
+
+.icon{
+    width: 80px;
+    margin-bottom: 20px;
+}
+
+
